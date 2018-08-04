@@ -1,0 +1,15 @@
+{%extends 'layout.html'%}
+
+{% block title%}
+Sucess
+{%endblock%}
+
+{% block body%}
+<h1>Sucessfuly Added the Passenger and Booking Done</h1>
+<form action="{{url_for('flights')}}" method="post">
+  <div class="form-control">
+    <button class="btn btn-primary">More Info About Flights</button>
+  </div>
+</form>
+
+{%endblock%}
